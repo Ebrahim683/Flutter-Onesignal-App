@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.flutter_one_signal_app"
-    compileSdk = 33
+    compileSdk = 34
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
