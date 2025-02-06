@@ -7,11 +7,17 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Onesignal Flutter'),
+        title: Text('Webhook Notifier'),
         centerTitle: true,
       ),
       body: Center(
-        child: Text('ONESIGNAL FLUTTER'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Image.asset('assets/icon.png'),
+          ],
+        ),
       ),
     );
   }

@@ -5,7 +5,7 @@ import 'package:onesignal_flutter/onesignal_flutter.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   OneSignal.Debug.setLogLevel(OSLogLevel.verbose);
-  OneSignal.initialize("<YOUR APP ID HERE>");
+  OneSignal.initialize("a1eb5b9a-f295-4006-b9f9-474954a184bf");
   OneSignal.Notifications.requestPermission(true);
   runApp(const MyApp());
 }
