@@ -1,0 +1,4 @@
+enum ResultStatusEnum {
+  success,
+  error,
+}
